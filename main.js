@@ -1,3 +1,4 @@
+
 let romanToInt = (romanNumber) => {
     let romanNumberList = {
         I: 1,
@@ -20,7 +21,8 @@ let romanToInt = (romanNumber) => {
         }
     }
 
-    return result
+    console.log(result);
+    return result  
 };
 
-romanToInt('LVIII')
+romanToInt('LVIII');
